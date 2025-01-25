@@ -1,0 +1,41 @@
+
+<div class="hero-logo">
+
+</div>
+
+<div class="manage-hero-3">
+<h2>Manage your entire community in a single system</h2>
+<p>Who is Nextcent suitable for?</p>
+</div>
+
+<div class="hero-manage-3">
+<div>
+    <img src="" alt="">
+    <h2></h2>
+    <p></p>
+</div>
+<div><img src="" alt="">
+    <h2></h2>
+    <p></p></div>
+<div><img src="" alt="">
+    <h2></h2>
+    <p></p></div>
+
+</div>
+
+
+<div class="unseen-hero-4">
+<div><img src="" alt=""></div>
+<div><h3></h3>
+<p></p>
+<h4></h4></div>
+
+</div>
+
+
+.cards-hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

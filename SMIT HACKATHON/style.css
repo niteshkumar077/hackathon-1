@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Playwrite+HR+Lijeva+Guides&family=Rubik+Vinyl&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.cs-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+
+}
+.cs-nav-links{
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+   
+}
+.cs-nav-links h3{
+    font-size: 20px;
+}
+.cs-nav-btn{
+    display: flex;
+    gap: 18px;    
+    align-items: center;
+    
+}
+.cs-nav-btn>h3{
+    font-size: 20px;
+    color: #4CAF4F;
+    cursor: pointer;
+}
+
+#cs-nav-btn-sign-up{
+    background-color: #4CAF4F;
+color: white;
+padding-left: 17px;
+padding-right: 17px;
+padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 52px; */
+    align-items: center;
+
+   padding: 5vw;
+}
+.hero-section-text{
+    color: #4D4D4D;
+}
+.hero-section-text span{
+    color: #4CAF4F;
+}
+.hero-section-text h3{
+    color: white;
+    background-color: #4CAF4F;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 25px;
+    padding-right: 25px ;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+.hero-section-text h1{
+    width: 75%;
+    font-size: 55px;
+}
+.hero-section-text p{
+    font-size: 12.5px;
+}
+.client-hero-2{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+color: #4D4D4D;
+
+}
+
+.hero-6-logo{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+}
+.manage-hero-3{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+color: #4D4D4D;
+
+
+}
+
+.cards-hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-text-hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+.footer-text-hero h1{
+    font-size: 50px;
+    width: 50%;
+    color: #4D4D4D;
+}
+.footer-text-hero p{
+   color: white;
+   background-color: #4CAF4F;
+   border-radius: 5px;
+   padding: 10px 15px;
+}
+
+.final-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #263238;
+    color: white;
+    padding: 5vw;
+    align-items: center;
+}
+
+.footer-line{
+    line-height: 65px;
+}
+
+.ul-footer ul{
+     text-decoration: none;
+     list-style: none;
+}
